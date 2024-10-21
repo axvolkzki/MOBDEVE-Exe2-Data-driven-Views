@@ -2,7 +2,7 @@
 This is an exercise on our Mobile Development course focused to test our knowledge of topics from Module 2.b: Basic Android Development (Data-driven Views [RecyclerView]).
 
 ## Application Demonstration
-(YouTube Link)[https://youtu.be/mckx3RGVEAA]
+YouTube Link [https://youtu.be/mckx3RGVEAA]
 
 ## Files Provided
 You are provided a zip file containing the following:
