@@ -7,19 +7,21 @@
 
     <ImageView
         android:id="@+id/imgAnime"
-        android:layout_width="140dp"
-        android:layout_height="198dp"
+        android:layout_width="130dp"
+        android:layout_height="184dp"
+        android:contentDescription="Anime Cover"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/anime1" />
 
     <TextView
         android:id="@+id/txvAnimeName"
-        android:layout_width="123dp"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_margin="8dp"
+        android:layout_margin="4dp"
         android:text="TextView"
         android:textColor="@color/white"
         app:layout_constraintBottom_toBottomOf="@+id/imgAnime"
+        app:layout_constraintEnd_toEndOf="@+id/imgAnime"
         app:layout_constraintStart_toStartOf="@+id/imgAnime" />
 </androidx.constraintlayout.widget.ConstraintLayout>
